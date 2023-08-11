@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>HUGO BOSS | Exclusive & Modern design </title>
+  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn link for bootsrap files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="index.css">
+    <!-- import font line from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Oswald&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+  <!--header section-->
+</head>
+<body>
+    
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg "   id="navbarsection">
+            <div class="container-fluid ">
+                <img   class="logo img-fluid" src="images/BOSS.DE_BIG.D.png" alt="">
+                <!--toggled added by default of bootstrap-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" id="collapse">
+                <!--nav bar menu include icons -->
+                <ul class="navbar-nav d-flex ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2  ">
+                        <a href="" class="nav-link active text-white "><i class="bi-search"></i></a>
+                      </li>
+                  <li class="nav-item pe-2">
+                    <a class="nav-link active text-white " href="">IN(₹)</a>
+                  </li>
+                  <li class="nav-item pe-2">
+                    <a class="nav-link active text-white "  href=""><i class="bi-geo-alt  "></i></a>
+                  </li>
+                  <li class="nav-item pe-2">
+                    <a class="nav-link active text-white " href=""><i class="bi-person"></i></a>
+                  </li>
+                  <li class="nav-item pe-2">
+                    <a class="nav-link active text-white " href=""><i class="bi-heart"></i></a>
+                  </li>
+                
+                  <li class="nav-item pe-2">
+                    <a class="nav-link active text-white " href=""> <i class="bi-handbag"></i></a>
+                  </li>
+                  <!--toggle added for the menu options-->
+                  <li class="nav-item dropdown   ">
+                    <a class="nav-link dropdown-toggle d-none " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                    </a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div>
+          <!--menu section -->
+            <nav class="navbar navbar-expand-lg " style="--bs-bg-opacity:.5;">
+                <div class="collapse navbar-collapse justify-content-center" >
+            <ul class="nav  ">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="#cardbox">SALE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">NEW IN</a>
+                </li>
+                <li class="nav-item text-white">
+                  <a class="nav-link text-white" href="#">LINK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white">CLOTHING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white">SHOES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">ACCESSORIES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">OUR BRANDS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">HIGHLIGHTS</a>
+                  </li>
+                  <li class="nav-item text-white">
+                    <a class="nav-link text-white">GIFTS</a>
+                  </li>
+                  <li class="nav-item dropdown   ">
+                    <a class="nav-link dropdown-toggle d-none " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                    </a>
+                  </li>
+              </ul>
+            </div>
+            </nav>
+        </div>
+   
+    </header>
+    <section >
+
+      <!--carousal section-->
+      <!--added javascript functions for autotyping the caption linked withe the button-->
+        <div class="banner col-12  ">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/bannerimg2.jpeg " class="img-fluid d-block w-100 col-m-12" alt="...">
+                    <div class="carousel-caption d-md-block  " >
+                        <h5 class="text-danger">IT'S IN THE HUGO DNA </h5>
+                       
+                        <h1 id="autotext" class="text-danger"></h1>
+                        
+                        <button  class="btn text-danger bg-white mt-3 " onmouseover="typeWriter()">SHOP NOW</button>
+                        <button class="btn text-danger bg-white mt-3 ">DISCOVER MORE</button>
+                      </div>
+                  </div>
+                  <div class="carousel-item  ">
+                    <img src="images/bannerimg1.jpeg" class="img-fluid d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block  " >
+                        <h5>SUMMER'S AT YOU FEET</h5>
+                        <h1 id="autotext1" ></h1>
+                        <button  class="btn text-danger bg-white mt-3 " onmouseover="typeWriter1()">SNEAKERS</button>
+                       
+                      
+                      </div>
+                  </div>
+                </div>
+                <!--carousal buttons and auto play the section-->
+                <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <section class="container-fluid" >
+        <!--sale section added and line with nav bar sale button-->
+        <!--added cards for the multiply the  boxes-->
+    
+      <div id="cardbox" class="row cardbox ">
+        <div class="card text-center col-12 position-relative " >
+          <img src="images/cardimg2.webp" class="card-img-left img-fluid" alt="...">
+          <div class="card-body position-absolute">
+              <h6 class="card-text">RELAXED-FIT T-SHIRT</h6>
+              <h3 class="card-text">HUGO</h3>
+              <p id="card1" class="text-white"></p>
+              <button class="btn text-danger  bg-white mt-3" onmouseenter="priceH1()">SHOP NOW</button>
+
+            
+          </div>
+        </div>
+      
+          <div class="card text-center col-12 position-relative" >
+            <img src="https://images.hugoboss.com/is/image/boss/hbeu50492726_962_300?$large$=&fit=crop,1&align=1,1&lastModified=1691500846000&wid=768&qlt=80&fmt=webp" class="card-img-left img-fluid" alt="...">
+            <div class="card-body position-absolute">
+                <h6 class="card-text">PLISSÉ SKIRT WITH ALL</h6>
+                <h3 class="card-text">BOSS</h3>
+                <p id="card2" class="text-white"></p>
+                <button class="btn text-danger  bg-white mt-3" onmouseenter="priceH2()">SHOP NOW</button>
+              
+  
+              
+            </div>
+          </div>
+          <div class="card text-center col-12 position-relative" >
+            <img src="https://images.hugoboss.com/is/image/boss/hbeu50457442_466_300?$large$=&fit=crop,1&align=1,1&lastModified=1691512622000&wid=768&qlt=80&fmt=webp" alt="...">
+            <div class="card-body position-absolute">
+                <h6 class="card-text">SLIM-FIT PENCIL SKIRT</h6>
+                <h3 class="card-text">HUGO</h3>
+                <p id="card3" class="text-white"></p>
+                <button class="btn text-danger  bg-white mt-3" onmouseenter="priceH3()" >SHOP NOW</button>
+  
+              
+            </div>
+          </div>
+          <div class="card text-center col-12 position-relative" >
+            <img src="https://images.hugoboss.com/is/image/boss/hbeu50490036_404_300?$large$=&fit=crop,1&align=1,1&lastModified=1691506094000&wid=768&qlt=80&fmt=webp" alt="...">
+            <div class="card-body position-absolute">
+                <h6 class="card-text">RELAXED-FIT JACKET</h6>
+                <h3 class="card-text">BOSS</h3>
+                <p id="card4" class="text-white"></p>
+                <button class="btn text-danger  bg-white mt-3" onmouseenter="priceH4()" >SHOP NOW</button>
+  
+              
+            </div>
+          </div>
+          <div class="card text-center col-12 position-relative" >
+            <img src="https://images.hugoboss.com/is/image/boss/hbeu50460741_001_300?$large$=&fit=crop,1&align=1,1&lastModified=1691500882000&wid=768&qlt=80&fmt=webp" alt="...">
+            <div class="card-body position-absolute">
+                <h6 class="card-text">REGULAR-FIT PENCIL SKIRT</h6>
+                <h3 class="card-text">HUGO</h3>
+                <p id="card5" class="text-white"></p>
+                <button class="btn text-danger  bg-white mt-3" onmouseenter="priceH5()" >SHOP NOW</button>
+  
+              
+            </div>
+          </div>
+          <div class="card text-center col-12 position-relative" >
+            <img src="https://images.hugoboss.com/is/image/boss/hbeu50490058_001_300?$large$=&fit=crop,1&align=1,1&lastModified=1691512622000&wid=768&qlt=80&fmt=webp" alt="...">
+            <div class="card-body position-absolute">
+                <h6 class="card-text"> JACQUARD-PATTERN PENCIL SKIRT </h6>
+                <h3 class="card-text">BOSS</h3>
+                <p id="card6" class="text-white"></p>
+                <button class="btn text-danger  bg-white mt-3"onmouseenter="priceH6()" >SHOP NOW</button>
+  
+              
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <!--added like as cards-->
+      <h1 class="head1 text-center ">DOWN TO THE DETAILS</h1>
+      <div class="row bagbox position-absolute">
+     
+          <div class="bagcard m-1 col-12 ">
+              <div>
+
+                <video  autoplay loop muted src="videos/bagvid.mp4">
+              </div>
+              <div>
+
+                <img src="https://images.hugoboss.com/is/image/hugobosscsprod/230720_HBME_WW_110_FA23_BOSS_Tier3_Standoutaccessories_Gridsteaser_948x928?%24large%24&fmt=webp&align=0,-1&fit=crop,1&ts=1690295449921&qlt=80&wid=360&hei=348" alt="no preview available">
+              </div class="content">
+              <div>
+                <button class="btn btn-outline-dark">SHOP NOW</button>
+
+              </div>
+                 
+          </div>
+         
+      
+    </div>
+  </section>
+  <!--newsletter section added to the webapage-->
+  <section class="container-fluid col-12  ">
+    <div class="nwsbanner  row" >
+        <div class="">
+        <img src="https://images.hugoboss.com/is/image/hugobosscsprod/230509_HBME_110_FA23_BOSS_Bottomribbon_1504_6081?%24large%24&align=0,-1&fit=crop,1&ts=1683730304729&qlt=80&wid=1024&hei=415" alt="">
+    </div>
+        <div class="textbox mt-3 bg-light col-md-3 ">
+            <h1>HUGO BOSS Newsletter</h1>
+            <p>Get the latest news from the HUGO BOSS Online Store regarding new products,exclusive specials, lifestyle and fashion trends.</p>
+            <button class="btn btn-outline-dark">SUBSCRIBE NIOW</button>
+          </div>
+          
+    </div>
+
+</section>
+<!--footer section added into final section of  webpage-->
+<footer class="container-fluid ">
+  <div class="row footerbox">
+      
+      <div class="footcard col-sm-4 col-md-4 col-lg-4 ">
+          <h2>CONTACT</h2>
+          <ul class="list-unstyled ">
+              <li>
+                  <a class="text-decoration-none text-dark" href="">LIVE CHAT & STYLE ADVICE</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Customer Care</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Whatsapp**</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Email Us</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Store Locator</a>
+              </li>
+          </ul> 
+         
+      </div>
+     
+      <div class="footcard col-sm-4 col-md-4  col-lg-4 ">
+          <h2>SERVICES</h2>
+          <ul class="list-unstyled ">
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Delivery</a>
+              </li>
+              <li>
+                   <a class="text-decoration-none text-dark" href="">How to Return</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Return Portal</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">HUGO BOSS EXPERIENCE</a>
+              </li>
+          </ul>
+        </div>
+        
+      <div class="footcard col-sm-4 col-md-4  col-lg-4 ">
+          <h2>OUR COMPNAY</h2>
+          <ul class="list-unstyled" >
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Careers</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Investor Relations</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Sustainability</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none text-dark" href="">Press</a>
+              </li>
+          </ul>
+        </div>
+    
+
+  </div>
+ 
+</footer>
+
+    <!--script file added into the last-->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="website.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   
+
+   
+</body>
+</html>

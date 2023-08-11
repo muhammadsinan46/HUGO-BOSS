@@ -1,0 +1,682 @@
+body{
+    font-family: 'Jost', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color: rgba(118, 157, 194, 0.244);
+}
+.logo{
+    height: 1.2rem;
+    
+}
+
+.nav-item{
+    cursor: pointer;
+ 
+}
+.nav-link i:hover{
+    zoom: 1.2;
+}
+
+.nav-item a:hover{
+    /* background-color: white; */
+    zoom: 110%;
+
+}
+.nav-item a:focus{
+    color: back;
+}
+
+.card{
+    padding: 2rem;
+
+    border: none;
+   
+}
+.card img{
+    transition: transform .2s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+.carousel-caption h5{
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+.carousel-caption h1{
+    font-weight: 900;
+    font-size:1.2rem ;
+}
+
+button:focus{
+
+font-size: .9rem;
+
+
+
+}
+
+
+
+.card-body{
+    top: 8rem;
+    color: white;
+    font-weight: bold;
+    margin: 3rem;
+    
+
+   }
+
+
+
+
+.img1{
+    width: 40rem;
+    height: 45rem;
+}   
+
+
+.bagcard video{
+    margin: 2rem;
+    width: 8rem;
+}
+
+.bagcard img{
+    margin: 2rem;
+    width:8rem ;
+    padding-top: .5rem;
+}
+
+section .head1{
+  font-weight: 800;
+  font-size: 1rem;
+
+}
+
+
+.textbox h1{
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.textbox p{
+    margin: 2rem;
+}
+.textbox button{
+    text-align: center;
+    margin-left: 1rem;
+    background-color: black;
+   
+    color: white;
+    
+    
+}
+
+.bagcard button{
+    width: 6rem;
+   padding: auto;
+    margin-left: 5rem;
+    align-items: center;
+    font-size: .6rem;
+}
+
+
+
+.nwsbanner {
+    margin-left: 1rem;
+    margin-top: 30rem;
+    width: 12rem;
+    align-items: center;
+}
+.nwsbanner img{
+    width: 12rem;
+    margin-left: 1rem;
+}
+
+.textbox h1{
+    font-size: .9rem;
+    
+}
+.textbox p{
+    font-size: .7rem;
+    text-align:start;
+    width: 10rem;
+    text-align:start;
+}
+.textbox button{
+    width: 6rem;
+   padding: auto;
+    margin-left: 5rem;
+    align-items: center;
+    font-size: .5rem;
+}
+footer{
+ margin-top: 1rem;
+ background-color: rgba(255, 255, 255, 0.427);
+
+
+}
+.footcard{
+   
+    overflow:hidden;
+}
+.footcard h2{
+    font-size: .9rem;
+    text-align: center;
+
+    
+
+}
+.footcard li{
+    font-size: .5rem;
+   margin-left: 2rem;
+   text-align: center;
+   padding: .5rem;
+}
+
+@media (min-width: 540px){
+    .carousel-caption h1{
+     font-size: 1.3rem;
+   
+    }
+
+
+    .carousel-caption h5{
+        font-size: 1rem;
+     
+    }
+    .card{
+        
+      width: 25rem;
+      margin-left:5rem;
+      align-items: center;
+    }
+    .card img{
+        width: 20rem;
+    }
+    .card-body{
+        top: 20rem;
+        color: white;
+        font-weight: bold;
+    
+       }
+       .bagcard video{
+        margin-left: 7rem;
+        width: 22rem;
+    }
+    
+    .bagcard img{
+        margin-left: 7rem;
+        width: 20rem;
+        padding-top: .5rem;
+    }
+    
+    .nwsbanner {
+        position: relative;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 62rem;
+        width: 20rem
+    }
+    .nwsbanner img{
+       
+       
+        width: 25rem;
+        margin-left: 1rem;
+        
+    }
+   .textbox{
+   
+    left: 20rem;
+    float: left;
+    margin-left: 5rem;
+    width: 17rem;
+
+   }
+    
+    .textbox h1{
+        font-size: 1.5rem;
+        width: 15rem;
+    }
+    .textbox p{
+        width: 20rem;
+    }
+    .textbox button{
+        padding: .5rem;
+        margin-left: 5rem;
+        align-items: center;
+        
+    }
+    
+  
+    .footcard h2{
+        text-align: center;
+       
+        
+    
+    }
+   
+}
+
+
+@media (min-width: 576px){
+    .carousel-caption h1{
+     font-size: 1.3rem;
+   
+    }
+
+
+    .carousel-caption h5{
+        font-size: 1rem;
+     
+    }
+    .card{
+        
+      width: 25rem;
+      margin-left:9rem;
+      align-items: center;
+    }
+    .card img{
+        width: 25rem;
+    }
+    .card-body{
+        top: 20rem;
+        color: white;
+        font-weight: bold;
+    
+       }
+       .bagcard video{
+        margin-left: 7rem;
+        width: 22rem;
+    }
+    
+    .bagcard img{
+        margin-left: 7rem;
+        width: 20rem;
+        padding-top: .5rem;
+    }
+    
+    .nwsbanner {
+        position: relative;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 62rem;
+        width: 35rem
+    }
+    .nwsbanner img{
+       
+       
+        width: 32rem;
+        margin-left: 3rem;
+        
+    }
+   
+    
+    .textbox h1{
+        font-size: 1.5rem;
+    }
+    .textbox p{
+        text-align: justify;
+    }
+    .textbox button{
+        padding: 1rem;
+        margin-left: 5rem;
+        align-items: center;
+        
+    }
+    
+  
+    .footcard h2{
+        text-align: center;
+       
+        
+    
+    }
+   
+}
+
+    @media (min-width: 768px){
+        .carousel-caption h1{
+            font-size: 1.4rem;
+            
+           }
+       
+           .carousel-caption h5{
+               font-size: 1.2rem;
+               
+           }
+           .card{
+            
+            width: 18rem;
+            margin-left: 3rem;
+            align-items: center;
+          }
+           .card img{
+            width: 15rem;
+            height: 25rem;
+            margin: 1rem;
+            object-fit: cover;
+
+           }
+           .card-body{
+            
+            top: 10rem;
+            color: white;
+            font-weight: bold;
+           }
+           .bagcard{
+            position: absolute;
+           }
+           
+          
+
+           .bagcard video{
+            position: relative;
+            margin: 2rem;
+            width: 20rem;
+        }
+        
+        .bagcard img{
+            position: relative;
+            left: 25rem;
+            bottom:24rem ;
+            margin: 2rem;
+            width:19rem ;
+            padding-top: .5rem;
+        }
+        
+        .bagcard button{
+          
+            
+            text-align: end;
+            margin-left: 19rem;
+            
+            position: absolute;
+            top:25rem;
+        
+        }
+        
+    .nwsbanner {
+        position: relative;
+        margin-top: 35rem;
+        width: 35rem
+    }
+    .nwsbanner img{
+        position: absolute;
+    
+        width: 40rem;
+        margin-left: 1rem;
+        
+    }
+    .textbox{
+        position: absolute;
+        left: 20rem;
+        float: left;
+        margin-left: 5rem;
+        width: 17rem;
+        height: 14rem;
+        
+     
+        
+    }
+   
+    
+    .textbox h1{
+        left: 25rem;
+        font-size: 1.5rem;
+        width: 10rem;
+    }
+    .textbox p{
+        width: 17rem;
+    }
+    .textbox button{
+       margin: 2rem;
+       width: 12rem;
+       background-color: black;
+      
+    }
+    footer{
+        margin-top:25rem;
+     
+      
+       
+    }
+    .footcard h2{
+       font-size: 1.3rem;
+       font-weight: bold;
+       text-align: center;
+       padding-left: 1rem;
+    }
+   
+   
+  
+    .footcard li{
+        margin: 2rem;
+        font-size: 1rem;
+        
+        
+    }
+  
+   
+
+    }
+   
+    
+    @media (min-width:992px){
+        .carousel-caption h1{
+            font-size: 2.5rem;
+            
+           }
+       
+           .carousel-caption h5{
+               font-size: 1.5rem;
+            
+               
+           }
+           .card{
+            width: 22rem;
+            margin-left: 5rem;
+           }
+           .card img{
+            width: 18rem;
+            height: 30rem;
+            margin: 2rem;
+            object-fit: cover;
+           }
+           .card-body{
+            top: 20rem;
+            color: white;
+            font-weight: bold;
+           }
+
+           .bagcard{
+            position: absolute;
+           }
+           
+          
+
+           .bagcard video{
+            position: relative;
+            margin-left: 6rem;
+            width: 25rem;
+        }
+        
+        .bagcard img{
+            position: relative;
+            left: 27rem;
+            bottom:29rem ;
+            margin-left: 8rem;
+            width:24rem ;
+            padding-top: .5rem;
+        }
+        
+        .bagcard button{
+            text-align: end;
+            margin-left: 29rem;
+            padding-left:4rem ;
+            padding-right: 4rem;
+            position: absolute;
+            top:29rem;
+        
+        }
+        
+        .nwsbanner {
+            position: relative;
+            margin-top: 35rem;
+            width: 60rem
+        }
+        .nwsbanner img{
+            position: absolute;
+        
+            width: 57rem;
+            margin-left: 1rem;
+            
+        }
+        .textbox{
+            position: absolute;
+            left: 29rem;
+            float: left;
+           top:3rem;
+            margin-left: 3.5rem;
+            width: 25rem;
+            height: 17rem;
+         
+            
+        }
+       
+        .textbox button{
+         
+           width: 10rem;
+          height: 2rem;
+           
+           
+            
+        } 
+
+    
+       
+    }
+    @media (min-width:1200px){
+        .carousel-caption h1{
+            font-size: 2.5rem;
+            
+           }
+       
+           .carousel-caption h5{
+               font-size: 1.5rem;
+            
+               
+           }
+           .card{
+            margin: 1rem;
+           
+            width: 20rem;
+           }
+           .card img{
+            width: 18rem;
+           }
+           .card-body{
+            top: 18rem;
+            color: white;
+            font-weight: bold;
+           }
+
+           .bagcard{
+            position: absolute;
+            left: 22rem;
+           }
+           
+          
+
+           .bagcard video{
+            position: relative;
+            margin: 2rem;
+            width: 25rem;
+        }
+        
+        .bagcard img{
+            position: relative;
+            left: 27rem;
+            bottom:29rem ;
+            margin: 2rem;
+            width:24rem ;
+            padding-top: .5rem;
+        }
+        
+        .bagcard button{
+            text-align: end;
+            margin-left: 24rem;
+            padding-left:4rem ;
+            padding-right: 4rem;
+            position: absolute;
+            top:29rem;
+        
+        }
+        .nwsbanner {
+            position: relative;
+            margin-top: 40rem;
+            width: 70rem
+        }
+        .nwsbanner img{
+            object-fit:cover;
+            position: absolute;
+           
+            height: 20rem;
+        
+            width: 75rem;
+            
+            
+        }
+        .textbox{
+            position: absolute;
+            left: 50rem;
+            float: left;
+            margin-left: 3.5rem;
+            width: 22rem;
+            height: 12rem;
+         
+            
+        }
+       
+        
+        .textbox h1{
+            left: 30rem;
+            font-size: 1.5rem;
+            width: 19rem;
+        }
+        .textbox p{
+            
+            width: 15rem;
+        }
+        .textbox button{
+                margin: .5rem;
+           width: 12rem;   
+           height: 3rem;
+           font-size: 1rem; 
+        }
+        footer{
+            overflow: hidden;
+            margin-top:25rem;
+            display: flex;
+            padding-top: 2rem;
+          
+           
+        }
+
+.footcard h2{
+            text-align:center;
+            margin-left: 7rem;
+            width: 20rem;
+            
+        
+        }
+        .footcard li{
+            width: 29rem;
+            text-align: center;
+        } 
+       
+        
+    }
